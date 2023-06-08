@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mystyles.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Exercise</title>
+</head>
+<body>
+    <h1>Ejercicio de Formulario</h1>
+    
+    <div class="formflex">
+        <form>
+            <label for="nombre">Nombre:</label><br>
+                <input type="text" name="nombre"><br><br>
+            
+                <label for="apellido">Apellidos:</label><br>
+                <input type="text" name="apellido"><br><br>
+            
+                <label for="email">Correo electronico:</label><br>
+                <input type="text" name="email"><br><br>
+            
+                <label for="edad">Edad</label><br>
+                <input type="text" name="edad"><br><br>
+            
+                <label for="selector">Cual es tu situacion laboral?</label><br><br>
+                    <select id = "selector">
+                        <option value = "empleado" selected>Empleado</option>
+                        <option value = "desempleado">Desempleado</option><br><br>
+                    </select>
+            
+            
+                <p>Cuantos hijos tienes?</p>
+                <div>
+                    <input type="radio" id="ninguno"  name="hijos" value="0">
+                    <label for="hijos">Ninguno</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="unhijo" name="hijos" value="1">
+                    <label for="adult">Uno</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="dosomas" name="hijos" value="2">
+                    <label for="senior">Dos o mas</label>
+                </div>
+
+                <p>Que lenguajes de programacion conoces?</p>
+                
+                <div>
+                    <input type="checkbox" id="js" name="lenguajes" value="javascript">
+                    <label for="sausage">JavaScript</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="py" name="lenguajes" value="python">
+                    <label for="python">Python</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="cplus" name="lenguajes" value="cplusplus">
+                    <label for="pepperoni">C++</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="csh" name="lenguajes" value="csharp">
+                    <label for="csharp">C#</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="gol" name="lenguajes" value="go">
+                    <label for="go">Go</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="jv" name="lenguajes" value="java">
+                    <label for="python">Java</label>
+                </div><br>
+
+                <label for="comment">Algun comentario</label><br>
+                    <input type="text" name="comment" class="commentclass"><br><br>
+
+                <button type="submit">Enviar</button>
+              
+        </form>
+    </div>
+    
+   
+  
+        
+
+
+
+
+
+    
+    
+</body>
+</html>
